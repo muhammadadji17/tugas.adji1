@@ -65,5 +65,14 @@ double Ra1c[5]={ (a1c[0]/mc[0]),(a1c[1]/mc[1]),(a1c[2]/mc[2]),(a1c[3]/mc[3]),(a1
 	do{
 		cout<<Ra3c[n]<< " | ";
 		n++;
-		}while(n<5);cout<< endl;	
+		}while(n<5);cout<< endl;
+		
+			cout <<endl << endl;
+	cout << "BOBOT W :"<<endl;
+	int O=0;
+	do{
+		cout<<w[O] << " | ";
+		O++;
+		}while(O<5);cout<< endl;
+			
 }
